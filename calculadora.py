@@ -1,13 +1,18 @@
+    def suma(a, b):
+        return a + b
+
+    def resta(a, b):
+        return a - b
 
     else:
         return "Error: División por cero no permitida"
 
-def calculadora():
-    print("Selecciona la operación:")
-    print("1. Suma")
-    print("2. Resta")
-    print("3. Multiplicación")
-    print("4. División")
+    def calculadora():
+        print("Selecciona la operación:")
+        print("1. Suma")
+        print("2. Resta")
+        print("3. Multiplicación")
+        print("4. División")
 
     operacion = input("Introduce el número de la operación (1/2/3/4): ")
 
