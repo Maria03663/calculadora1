@@ -1,5 +1,4 @@
-
-    else:
+else:
         return "Error: División por cero no permitida"
 
 def calculadora():
